@@ -1,5 +1,4 @@
-var fs = require('fs');
-
+var fs       = require('fs');
 var fileName = '../LICENSE';
 
 fs.readFile(fileName, function (error, data) {
