@@ -7,5 +7,5 @@
     "test": "grunt test"
   },
   "author": "iwanaga",
-  "license": "MIT",
+  "license": "MIT"
 }
