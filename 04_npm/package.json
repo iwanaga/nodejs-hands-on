@@ -1,0 +1,14 @@
+{
+  "name": "npm_tutorial",
+  "version": "0.0.1",
+  "description": "example code for npm utilization.",
+  "main": "use_lodash.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "iwanaga",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.7.0"
+  }
+}
