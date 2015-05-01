@@ -1,0 +1,24 @@
+<md-toolbar class="md-primary">
+  <div class="md-toolbar-tools">
+    <h2 class="md-flex"><i class="fa fa-check-square-o"></i> TODO App</h2>
+  </div>
+</md-toolbar>
+
+<md-content class="md-padding">
+  <md-content class="md-padding">
+    <md-input-container>
+      <label>TODOを入力</label>
+      <input ng-model="newTodo.task">
+    </md-input-container>
+
+    <md-button class="md-raised md-primary" ng-click="saveTodo()">追加する</md-button>
+  </md-content>
+
+  <md-divider></md-divider>
+
+  <md-list>
+    <md-list-item ng-repeat="todo in todoList">
+      <md-checkbox ng-model="todo.done" ng-change="updateTodo(todo)">{{todo.task}}</md-checkbox>
+    </md-list-item>
+  </md-list>
+</md-content>
