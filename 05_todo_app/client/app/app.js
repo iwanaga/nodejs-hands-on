@@ -1,11 +1,12 @@
 'use strict';
 
-angular.module('todoAppApp', [
+angular.module('todoApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
   'btford.socket-io',
-  'ui.router'
+  'ui.router',
+  'ngMaterial'
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
     $urlRouterProvider
