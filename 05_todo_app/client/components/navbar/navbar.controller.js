@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('todoAppApp')
+angular.module('todoApp')
   .controller('NavbarCtrl', function ($scope, $location) {
     $scope.menu = [{
       'title': 'Home',
